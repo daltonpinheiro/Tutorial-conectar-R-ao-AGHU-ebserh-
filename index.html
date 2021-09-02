@@ -11825,9 +11825,9 @@ host<span class="o">&lt;-</span><span class="s">&quot;&quot;</span>
 drv <span class="o">&lt;-</span> dbDriver<span class="p">(</span><span class="s">&quot;PostgreSQL&quot;</span><span class="p">)</span>
 <span class="c1"># creates a connection to the postgres database</span>
 <span class="c1"># note that &quot;con&quot; will be used later in each connection to the database</span>
-con <span class="o">&lt;-</span> dbConnect<span class="p">(</span>drv<span class="p">,</span> dbname <span class="o">=</span> <span class="s">&quot;dbaghu&quot;</span><span class="p">,</span>
-                 host <span class="o">=</span> host<span class="p">,</span> port <span class="o">=</span> <span class="m">6544</span><span class="p">,</span>
-                 user <span class="o">=</span> <span class="s">&quot;ugen_integra&quot;</span><span class="p">,</span> password <span class="o">=</span> pw<span class="p">)</span>
+con <span class="o">&lt;-</span> dbConnect<span class="p">(</span>drv<span class="p">,</span> dbname <span class="o">=</span> <span class="s">&quot;dbaname&quot;</span><span class="p">,</span>
+                 host <span class="o">=</span> host<span class="p">,</span> port <span class="o">=</span> <span class="m">5432</span><span class="p">,</span>
+                 user <span class="o">=</span> <span class="s">&quot;user&quot;</span><span class="p">,</span> password <span class="o">=</span> pw<span class="p">)</span>
 <span class="kp">rm</span><span class="p">(</span>pw<span class="p">)</span> <span class="c1"># removes the password</span>
 </pre></div>
 
